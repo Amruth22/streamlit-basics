@@ -24,6 +24,18 @@ streamlit run app.py
 
 The app will open automatically in your browser at `http://localhost:8501`
 
+## Running Tests
+
+Run the unit tests:
+```bash
+python tests.py
+```
+
+Or using pytest:
+```bash
+pytest tests.py -v
+```
+
 ## Features Included
 
 - **Text Display**: Titles, headers, markdown, captions
@@ -43,12 +55,14 @@ The app will open automatically in your browser at `http://localhost:8501`
 - Streamlit 1.29.0
 - Pandas 2.1.4
 - NumPy 1.26.2
+- Pytest 7.4.3 (for testing)
 
 ## Project Structure
 
 ```
 streamlit-basics/
 ├── app.py              # Main Streamlit application
+├── tests.py            # Unit tests
 ├── requirements.txt    # Python dependencies
 └── README.md          # This file
 ```
